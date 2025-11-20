@@ -1,0 +1,17 @@
+/* About Section */
+.about {
+    background-color: var(--secondary-color);
+    text-align: center;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-text {
+    font-size: 1.1rem;
+    color: var(--text-muted);
+    line-height: 1.8;
+    margin-top: 1rem;
+}

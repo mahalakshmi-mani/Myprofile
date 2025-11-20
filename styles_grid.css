@@ -1,0 +1,13 @@
+/* Updated Grid for more items */
+.philosophy-grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.philosophy-card {
+    padding: 2rem;
+}
+
+.philosophy-card h3 {
+    font-size: 1.3rem;
+}

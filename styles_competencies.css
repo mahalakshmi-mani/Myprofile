@@ -1,0 +1,9 @@
+/* Competencies Section */
+.competencies {
+    background-color: var(--secondary-color);
+}
+
+.competencies .philosophy-grid {
+    /* Re-use the grid style but maybe adjust gap if needed */
+    gap: 1.5rem;
+}
