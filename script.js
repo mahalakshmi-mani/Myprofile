@@ -1,7 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Dynamic Year
-    document.getElementById('year').textContent = new Date().getFullYear();
-
     // Smooth Scrolling
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
@@ -12,43 +9,63 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+    // Intersection Observer for Fade-in Animations
+    const observerOptions = {
+        threshold: 0.1
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, observerOptions);
+
+    document.querySelectorAll('.section, .skill-card, .timeline-item').forEach(el => {
+        el.classList.add('fade-in');
+        observer.observe(el);
+    });
+
     // Mobile Menu Toggle
     const hamburger = document.querySelector('.hamburger');
     const navLinks = document.querySelector('.nav-links');
 
     hamburger.addEventListener('click', () => {
-        navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
-        if (navLinks.style.display === 'flex') {
-            navLinks.style.flexDirection = 'column';
-            navLinks.style.position = 'absolute';
-            navLinks.style.top = '80px';
-            navLinks.style.left = '0';
-            navLinks.style.width = '100%';
-            navLinks.style.backgroundColor = 'rgba(15, 23, 42, 0.95)';
-            navLinks.style.padding = '20px';
-        }
+        navLinks.classList.toggle('active');
+        hamburger.classList.toggle('active');
     });
 
-    // Scroll Animations (Lazy Load)
-    const reveals = document.querySelectorAll('.reveal');
-
-    const revealOnScroll = () => {
-        const windowHeight = window.innerHeight;
-        const elementVisible = 150;
-
-        reveals.forEach((reveal) => {
-            const elementTop = reveal.getBoundingClientRect().top;
-
-            if (elementTop < windowHeight - elementVisible) {
-                reveal.classList.add('active');
-            } else {
-                // Optional: Remove active class to re-animate when scrolling up
-                // reveal.classList.remove('active'); 
-            }
-        });
-    };
-
-    window.addEventListener('scroll', revealOnScroll);
-    // Trigger once on load
-    revealOnScroll();
+    // Dynamic Year
+    document.getElementById('year').textContent = new Date().getFullYear();
 });
+
+// Add fade-in styles dynamically if not present
+const style = document.createElement('style');
+style.textContent = `
+    .fade-in {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    }
+    .visible {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+    @media (max-width: 768px) {
+        .nav-links.active {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 80px;
+            left: 0;
+            width: 100%;
+            background: rgba(10, 10, 10, 0.95);
+            padding: 20px;
+            border-bottom: 1px solid var(--glass-border);
+        }
+    }
+`;
+document.head.appendChild(style);

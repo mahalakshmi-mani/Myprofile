@@ -1,0 +1,104 @@
+Mahalakshmi Mani - 98504959 
+Singapore PR Mahalakshmi7@gmail.com 
+
+Executive Summary
+
+Azure Certified (Az-900) Senior Technical lead possessing 14 years of IT experience in Web and client server 
+technologies. Ability to ascertain and analyze social, cultural, and business needs, define the high-level technical 
+Design, Develop, Unit test, successful delivery, and demonstrated business results. 
+● Senior development skills using latest & legacy technologies including Azure Cloud, Java, J2EE, Struts, Spring, 
+Spring Boot, Spring Batch, Hibernate, SOAP/REST Webservice, UNIX, PL/SQL, Oracle, Sybase, and
+Liquibase, Docker, OpenShift, Kubernetes
+● Business Intelligence (Qlikview and SAS) tools development & Production support activities, including design, 
+development, and implementation of Government sector applications.
+● Highly adaptable in agile technical environments with very strong organizational and analytical skill
+
+Skills
+
+Java, Spring Boot, Spring Batch, Hibernate, Junit
+Oracle, Sybase, SqlServer
+Maven, Gradle, Git, Jira, Teamcity, Jenkins, Liquibase
+DevOps, CI/CD, Agile, SDLC
+Azure, Tomcat, Autosys
+Docker, Kubernetes, OpenShift
+SWIFT Industry standard message parsing and generating. 
+
+Employment History
+
+LTI, Singapore
+Technical Lead 24 Feb 2022 – Till Now
+Angular solutions to Containerization Client: Citibank, Singapore
+ Onboarding Vallar Application (AML – Anti-Money Laundering) solutions to ECS (Enterprise container solution).
+Roles and Responsibilities: 
+• Configuring and integrating Bitbucket, Docker, Jenkins, RLM and OpenShift to create a single click automation 
+project.
+• Created docker related changes for Angular (Frontend) and Spring boot (Backend) applications.
+• Configured secrets, certificates, scaling, SSO and Log
+• Docker related configurations like Health check URL, Readiness and Liveliness probe.
+• Deployed the docker changes to Development via CI/CD pipeline.
+• Currently moving the Development changes to Test environment.
+Technologies worked: Spring Boot, Oracle 19c, Bitbucket, Jenkins, Angular 8, Docker, OpenShift, Kubernetes
+Internal Fraud - AML Client: Citibank, Singapore
+Vallar Application – Uncovering the undeclared relationship between customers. 
+Invictus Application – Uncovering the Internal fraud transactions within the bank. 
+Applications gather data from an internal source called EAP (Big Data). The Rule engine filters the source data based 
+on the implanted rules and generate alerts for the fraud identified. The alerts are validated by the respective group and 
+manual actions are taken based on the fraud committed. 
+Roles and Responsibilities: 
+• Identify and analyze user requirements.
+• Prioritize, assign, and execute tasks throughout the software development life cycle.
+ Mahalakshmi Mani - 98504959 
+ Singapore PR Mahalakshmi7@gmail.com 
+• Develop as well as review, test & debug code.
+• Schedule releases with internal teams
+• Document development phases
+Technologies worked: Spring Boot, Oracle 12c, Autosys, Maven, Bitbucket, Jenkins, Angular 8 
+Infosys Pte ltd., Singapore 
+Consultant 03 Aug 2020 – Feb-2022
+FIDES Client: UBS-WM & IB Japan, Singapore
+UBS WM Japan has established a strategic alliance with SMTB (Sumitomo Mitsui Trust bank). The alliance is called 
+FIDES (Good Luck).
+Phase 1: UBS and SMTB established an MJV (Marketing Joint Venture) for joint client acquisition and started to crossselling each other.
+Phase 2: UBS carve-out of WM Business unit from the existing entity UBS SJ (Securities Japan) to new security entity 
+WM JV (Joint Venture). This resulting into a developing SWIFT message to UBS Application support formats (ISTARDB). (SWIFT Category 9 Messages parsing and Generating using Java technology) 
+Technologies worked: Spring Boot, Spring Batch, Sybase, Autosys, Gradle, Git, Jira, Teamcity, Liquibase, Junit.
+ 
+Tech Mahindra Services Ltd., Singapore 
+Team Lead and Senior Software Engineer Sep 2010 – May 2017 & 13 Mar 2018 – Jan 2020
+GEOSPACE Client: Singapore Land Authority, Singapore 
+GeoSpace is an intranet government data sharing platform with spatial and Geographic Information System enabled 
+services, which is managed by Singapore Land Authority
+Technologies worked: JAVA-J2EE, Spring, JSF, XML, PL-SQL, JDeveloper, Oracle WebLogic 11g, REST Web 
+Services, Apache Solr, Google Search Appliance
+CEIS Client: Department of Statistics, Singapore 
+ 
+Commercial Enterprise Information System works as the interface between various agencies to extract/ manipulate 
+and share the details across other organizations. 
+Technologies worked: Struts, Spring, REST, Hibernate, UNIX script and Oracle 12c
+EPIC Client: Land and Transport Authority, Singapore
+EPIC System assists in analyzing /creating /configuring mrt/lrt/roads/junctions/signal. The Design shall be passed 
+across various levels for approval and to implement.
+Technologies worked: Struts, Spring, Hibernate and Oracle DB
+MARS 
+Management Access Review System (MARS) is the Review system where the financial details are depicted in a 
+graphical (Pivot/ charts) way to the management level. 
+Technologies worked: BI Tool (Qlikview 9) and SQL Server 2000.
+eIDEAs 
+eIDEA(Electronic Idea System) is the Electronic idea system where the LTA users provide ideas/suggestions to 
+improve the transports, infrastructure.
+Technologies worked: Struts and SQL Server 2000
+ICON Business Solutions PTE Ltd., Singapore
+Associate Consultant Mar 2010 –Aug 2010
+ Mahalakshmi Mani - 98504959 
+ Singapore PR Mahalakshmi7@gmail.com 
+Worked in Qlikview 9 for Various projects Clients: LTA and ST Electronics
+● Qlikview consultant.
+BI Tool: Qlikview 9 and SQL Server 2000
+SATYAM COMPUTER SERVICES LTD., India
+Software Engineer Mar 2006 – Apr 2008
+SKA Client: Bank Negara Of Malaysia
+Bank Negara Malaysia is the central bank for Malaysia. They are looking to enhance the Enterprise Portal with added 
+features such as Enhanced Current Knowledge Hub serving as One-Stop access point for Strategic Knowledge 
+Assets (SKA), Non-SKA information and knowledge assets in the Bank. To provide a Common Content Contribution 
+for SKA and Non-SKA documents with quality workflow process and electronic collaborative workspace. 
+Technologies worked: Struts, Spring, Hibernate and SQL Server 2000

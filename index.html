@@ -6,232 +6,234 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mahalakshmi Mani | Senior Technical Lead & Cloud Expert</title>
     <meta name="description"
-        content="Professional profile of Mahalakshmi Mani, an Azure Certified Senior Technical Lead specializing in Java, Cloud, and DevOps.">
-    <link rel="stylesheet" href="styles.css">
+        content="Portfolio of Mahalakshmi Mani, an Azure Certified Senior Technical Lead specializing in Cloud, Java, and DevOps.">
+
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@500;700;800&display=swap"
         rel="stylesheet">
+
+    <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <header class="header">
-        <nav class="navbar">
-            <a href="#hero" class="logo">Mahalakshmi.</a>
+    <div class="background-glow"></div>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">M.</a>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#experience">Experience</a></li>
-                <li><a href="#contact" class="btn-contact">Let's Collaborate</a></li>
+                <li><a href="#contact" class="btn-contact">Contact</a></li>
             </ul>
             <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
             </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
 
     <main>
         <section id="hero" class="hero">
-            <div class="container">
+            <div class="container hero-container">
                 <div class="hero-content">
-                    <p class="greeting">Hello, I'm</p>
-                    <h1 class="name">Mahalakshmi Mani</h1>
-                    <h2 class="title">Senior Technical Lead & <span class="highlight">Cloud Expert</span></h2>
+                    <span class="greeting">Hello, I'm</span>
+                    <h1 class="name">Mahalakshmi <span class="gradient-text">Mani</span></h1>
+                    <h2 class="title">Senior Technical Lead & <br>Cloud Architect</h2>
                     <p class="bio">
-                        Azure Certified (Az-900) Senior Technical Lead with 14+ years of experience in Web and
-                        client-server technologies.
-                        Specializing in Design, Development, and Delivery of complex enterprise applications.
+                        Azure Certified (Az-900) expert with 14+ years in building scalable enterprise applications.
+                        Specializing in <strong>Java Ecosystem</strong>, <strong>Cloud Modernization</strong>, and
+                        <strong>DevOps Automation</strong>.
                     </p>
                     <div class="hero-actions">
-                        <a href="#experience" class="btn btn-primary">View Experience</a>
-                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                        <a href="#experience" class="btn btn-primary">View Work</a>
+                        <a href="#contact" class="btn btn-outline">Get in Touch</a>
                     </div>
-                    <div class="hero-stats">
-                        <div class="stat-item">
-                            <span class="stat-number">14+</span>
-                            <span class="stat-label">Years Exp.</span>
+                </div>
+                <div class="hero-visual">
+                    <div class="code-card glass">
+                        <div class="code-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
                         </div>
-                        <div class="stat-item">
-                            <span class="stat-number">Az-900</span>
-                            <span class="stat-label">Certified</span>
-                        </div>
+                        <pre><code><span class="keyword">class</span> <span class="class-name">Architect</span> {
+  <span class="keyword">constructor</span>() {
+    <span class="this">this</span>.experience = <span class="number">14</span>;
+    <span class="this">this</span>.certification = <span class="string">'Az-900'</span>;
+    <span class="this">this</span>.focus = [<span class="string">'Cloud'</span>, <span class="string">'DevOps'</span>];
+  }
+}</code></pre>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="about" class="section philosophy">
+        <section id="about" class="section">
             <div class="container">
                 <h2 class="section-title">Executive Summary</h2>
-                <div class="philosophy-content">
+                <div class="about-content glass">
                     <p>
                         I am a highly adaptable Senior Technical Lead with strong organizational and analytical skills.
                         My expertise lies in ascertaining and analyzing social, cultural, and business needs to define
                         high-level technical designs.
-                        I have a proven track record of successful delivery and demonstrated business results in agile
-                        technical environments.
                     </p>
                     <p>
-                        I possess deep skills in both latest and legacy technologies including Azure Cloud, Java, J2EE,
-                        Struts, Spring Boot,
-                        Microservices, and DevOps practices (Docker, Kubernetes, OpenShift). I also have experience in
-                        Business Intelligence
-                        tools development and production support for Government sector applications.
+                        With a proven track record of successful delivery in agile environments, I possess deep skills
+                        in both latest and legacy technologies
+                        including <strong>Azure Cloud</strong>, <strong>Java/J2EE</strong>, <strong>Spring
+                            Boot</strong>, and <strong>Microservices</strong>.
                     </p>
                 </div>
             </div>
         </section>
 
-        <section id="skills" class="section expertise">
+        <section id="skills" class="section">
             <div class="container">
-                <h2 class="section-title">Technical Skills</h2>
-                <div class="expertise-grid">
-                    <div class="expertise-card">
-                        <i class="fa-brands fa-java"></i>
+                <h2 class="section-title">Technical Expertise</h2>
+                <div class="skills-grid">
+                    <!-- Java Ecosystem -->
+                    <div class="skill-card glass">
+                        <div class="icon-box"><i class="fa-brands fa-java"></i></div>
                         <h3>Java Ecosystem</h3>
-                        <p>Java, J2EE, Struts, Spring, Spring Boot, Spring Batch, Hibernate, JUnit</p>
+                        <div class="tags">
+                            <span>Java</span><span>J2EE</span><span>Spring Boot</span>
+                            <span>Spring Batch</span><span>Hibernate</span><span>Struts</span>
+                        </div>
                     </div>
-                    <div class="expertise-card">
-                        <i class="fa-solid fa-cloud"></i>
+
+                    <!-- Cloud & DevOps -->
+                    <div class="skill-card glass">
+                        <div class="icon-box"><i class="fa-solid fa-cloud"></i></div>
                         <h3>Cloud & DevOps</h3>
-                        <p>Azure, Docker, Kubernetes, OpenShift, Jenkins, TeamCity, Maven, Gradle, Git</p>
+                        <div class="tags">
+                            <span>Azure</span><span>Docker</span><span>Kubernetes</span>
+                            <span>OpenShift</span><span>Jenkins</span><span>CI/CD</span>
+                        </div>
                     </div>
-                    <div class="expertise-card">
-                        <i class="fa-solid fa-database"></i>
-                        <h3>Database</h3>
-                        <p>Oracle, Sybase, SQL Server, PL/SQL, Liquibase</p>
+
+                    <!-- Database -->
+                    <div class="skill-card glass">
+                        <div class="icon-box"><i class="fa-solid fa-database"></i></div>
+                        <h3>Data & Storage</h3>
+                        <div class="tags">
+                            <span>Oracle</span><span>Sybase</span><span>SQL Server</span>
+                            <span>PL/SQL</span><span>Liquibase</span>
+                        </div>
                     </div>
-                    <div class="expertise-card">
-                        <i class="fa-solid fa-server"></i>
-                        <h3>Servers & Tools</h3>
-                        <p>Tomcat, WebLogic, Autosys, Jira, Bitbucket</p>
+
+                    <!-- Tools -->
+                    <div class="skill-card glass">
+                        <div class="icon-box"><i class="fa-solid fa-toolbox"></i></div>
+                        <h3>Tools & Servers</h3>
+                        <div class="tags">
+                            <span>Git</span><span>Maven</span><span>Gradle</span>
+                            <span>Jira</span><span>Tomcat</span><span>WebLogic</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="experience" class="section experience">
+        <section id="experience" class="section">
             <div class="container">
                 <h2 class="section-title">Experience</h2>
                 <div class="timeline">
+
                     <!-- LTI -->
                     <div class="timeline-item">
-                        <div class="timeline-date">Feb 2022 - Present</div>
-                        <div class="timeline-content">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content glass">
+                            <span class="date">Feb 2022 - Present</span>
                             <h3>Technical Lead</h3>
-                            <h4>LTI, Singapore (Client: Citibank)</h4>
-                            <p>Leading Angular solutions to Containerization and AML (Anti-Money Laundering)
-                                initiatives.</p>
-                            <ul>
-                                <li>Configuring and integrating Bitbucket, Docker, Jenkins, RLM, and OpenShift for
-                                    single-click automation.</li>
+                            <h4>LTI, Singapore <span class="client">(Client: Citibank)</span></h4>
+                            <p>Leading Angular solutions to Containerization and AML initiatives.</p>
+                            <ul class="job-details">
+                                <li>Configuring and integrating Bitbucket, Docker, Jenkins, RLM, and OpenShift.</li>
                                 <li>Containerizing Angular (Frontend) and Spring Boot (Backend) applications.</li>
-                                <li>Configuring secrets, certificates, scaling, SSO, and logging.</li>
                                 <li>Managing Docker configurations (Health check, Readiness/Liveliness probes).</li>
-                                <li>Developing Vallar and Invictus applications for fraud detection using Big Data
-                                    (EAP).</li>
                             </ul>
-                            <div class="tech-stack">
-                                <span>Spring Boot</span><span>Angular
-                                    8</span><span>Docker</span><span>OpenShift</span><span>Kubernetes</span><span>Oracle
-                                    19c</span>
-                            </div>
                         </div>
                     </div>
 
                     <!-- Infosys -->
                     <div class="timeline-item">
-                        <div class="timeline-date">Aug 2020 - Feb 2022</div>
-                        <div class="timeline-content">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content glass">
+                            <span class="date">Aug 2020 - Feb 2022</span>
                             <h3>Consultant</h3>
-                            <h4>Infosys Pte ltd., Singapore (Client: UBS-WM & IB Japan)</h4>
+                            <h4>Infosys Pte ltd. <span class="client">(Client: UBS-WM & IB Japan)</span></h4>
                             <p>Worked on FIDES strategic alliance project between UBS and SMTB.</p>
-                            <ul>
+                            <ul class="job-details">
                                 <li>Established MJV (Marketing Joint Venture) for client acquisition.</li>
-                                <li>Handled carve-out of WM Business unit to new security entity WM JV.</li>
                                 <li>Developed SWIFT message parsing and generation (Category 9) using Java.</li>
                             </ul>
-                            <div class="tech-stack">
-                                <span>Spring Boot</span><span>Spring
-                                    Batch</span><span>Sybase</span><span>Autosys</span><span>Liquibase</span>
-                            </div>
                         </div>
                     </div>
 
                     <!-- Tech Mahindra -->
                     <div class="timeline-item">
-                        <div class="timeline-date">Sep 2010 - Jan 2020</div>
-                        <div class="timeline-content">
-                            <h3>Team Lead & Senior Software Engineer</h3>
-                            <h4>Tech Mahindra Services Ltd., Singapore</h4>
-                            <p>Worked on multiple government sector projects (SLA, DOS, LTA).</p>
-                            <ul>
-                                <li><strong>GeoSpace (SLA):</strong> Intranet government data sharing platform with GIS
-                                    services.</li>
-                                <li><strong>CEIS (DOS):</strong> Commercial Enterprise Information System for
-                                    cross-agency data sharing.</li>
-                                <li><strong>EPIC (LTA):</strong> System for analyzing/configuring transport
-                                    infrastructure.</li>
-                                <li><strong>MARS:</strong> Management Access Review System using Qlikview.</li>
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content glass">
+                            <span class="date">Sep 2010 - Jan 2020</span>
+                            <h3>Team Lead & Senior SE</h3>
+                            <h4>Tech Mahindra Services Ltd.</h4>
+                            <p>Delivered multiple government sector projects (SLA, DOS, LTA).</p>
+                            <ul class="job-details">
+                                <li><strong>GeoSpace:</strong> Intranet government data sharing platform.</li>
+                                <li><strong>CEIS:</strong> Commercial Enterprise Information System.</li>
+                                <li><strong>EPIC:</strong> Transport infrastructure analysis system.</li>
                             </ul>
-                            <div class="tech-stack">
-                                <span>Java/J2EE</span><span>Spring</span><span>Hibernate</span><span>REST</span><span>Oracle</span><span>Qlikview</span>
-                            </div>
                         </div>
                     </div>
 
-                    <!-- ICON -->
+                    <!-- Previous Roles -->
                     <div class="timeline-item">
-                        <div class="timeline-date">Mar 2010 - Aug 2010</div>
-                        <div class="timeline-content">
-                            <h3>Associate Consultant</h3>
-                            <h4>ICON Business Solutions PTE Ltd., Singapore</h4>
-                            <p>Qlikview consultant for LTA and ST Electronics projects.</p>
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content glass">
+                            <span class="date">2006 - 2010</span>
+                            <h3>Early Career</h3>
+                            <h4>ICON Business Solutions & SATYAM</h4>
+                            <p>Qlikview consultant for LTA and Software Engineer for Bank Negara Malaysia (SKA Project).
+                            </p>
                         </div>
                     </div>
 
-                    <!-- SATYAM -->
-                    <div class="timeline-item">
-                        <div class="timeline-date">Mar 2006 - Apr 2008</div>
-                        <div class="timeline-content">
-                            <h3>Software Engineer</h3>
-                            <h4>SATYAM COMPUTER SERVICES LTD., India</h4>
-                            <p>Worked on SKA project for Bank Negara Of Malaysia, enhancing Enterprise Portal and
-                                Knowledge Hub.</p>
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>
 
-        <section id="contact" class="section contact">
+        <section id="contact" class="section contact-section">
             <div class="container">
-                <h2 class="section-title">Get In Touch</h2>
-                <div class="contact-content">
-                    <div class="contact-info">
-                        <div class="contact-item">
-                            <i class="fa-solid fa-envelope"></i>
-                            <a href="mailto:Mahalakshmi7@gmail.com">Mahalakshmi7@gmail.com</a>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fa-solid fa-phone"></i>
-                            <a href="tel:+6598504959">+65 9850 4959</a>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fa-solid fa-location-dot"></i>
-                            <p>Singapore</p>
-                        </div>
+                <div class="contact-card glass">
+                    <h2>Let's Collaborate</h2>
+                    <p>Ready to build future-ready enterprise platforms?</p>
+                    <div class="contact-links">
+                        <a href="mailto:Mahalakshmi7@gmail.com" class="contact-link">
+                            <i class="fa-solid fa-envelope"></i> Mahalakshmi7@gmail.com
+                        </a>
+                        <a href="tel:+6598504959" class="contact-link">
+                            <i class="fa-solid fa-phone"></i> +65 9850 4959
+                        </a>
+                        <span class="contact-link">
+                            <i class="fa-solid fa-location-dot"></i> Singapore
+                        </span>
                     </div>
                 </div>
             </div>
         </section>
     </main>
 
-    <footer class="footer">
+    <footer>
         <div class="container">
             <p>&copy; <span id="year"></span> Mahalakshmi Mani. All rights reserved.</p>
         </div>
